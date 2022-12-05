@@ -3,7 +3,7 @@ namespace SharedLibrary.Dtos
 {
 	public class ErrorDto
 	{
-		public List<String> Errors { get; private set; }
+		public List<String>? Errors { get; private set; }
 
 		public bool IsShow { get; private set; }
 
